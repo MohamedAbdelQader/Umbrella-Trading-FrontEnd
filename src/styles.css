@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+
+::-webkit-scrollbar {
+    width: 1.7rem;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #3d4a59,white, #3d4a59);
+    border-radius: 1rem;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(270deg, white, #3d4a59, white);
+    }
+
+/* for Firefox */
+html {
+    scrollbar-track-color: #3d4a59;
+}
